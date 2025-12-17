@@ -1,0 +1,11 @@
+
+body{
+  background-color: rebeccapurple;
+  color: rgb(230, 142, 155);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 40%;
+}

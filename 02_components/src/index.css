@@ -1,0 +1,21 @@
+body{
+  background-color: rgba(0, 0, 0, 0.78);
+  color: palevioletred;
+  display: flex;
+  justify-content: center;
+}
+.App{
+  background-color: pink;
+  color: rgb(255, 250, 196);
+  border-radius: 10px;
+  margin: 10px;
+  padding: 10px;
+}
+.Header{
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  
+  
+}
+
