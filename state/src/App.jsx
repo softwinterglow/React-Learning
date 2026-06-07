@@ -1,13 +1,19 @@
 import React, { useState } from 'react'
 
-const App = () => {
-    const [val,setVal] = useState(0)
-  return (
-    <div>
+function App() {
+   const[val,setVal] = useState([1,2,3,4,5,6])
 
-        <h1>{val}</h1>
-        <button onClick={()=>setVal(prev=>prev+1)} className='px-3 py-1 mt-3 bg-blue-400 rounded-full '>change</button>
+  return (
+    <div className='p-5'>
+     
+      {val.map(item=><h1>{item}</h1>)}
+      <button onClick={()=>setVal(()=>val.filter((item)=>index!=2))} className='px-2 py-1 text-xs text-white rounded-full bg-blue-500'> click</button>
+
     </div>
+
+
+
+
   )
 }
 
