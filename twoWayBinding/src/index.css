@@ -1,0 +1,62 @@
+/* index.css */
+
+/* 1. Center everything on the screen */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f7f6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* 2. Style the form container */
+form {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  gap: 16px; /* Adds space between input and button */
+  width: 100%;
+  max-width: 320px; /* Limits how wide the form can get */
+}
+
+/* 3. Style the input field */
+input[type="text"] {
+  width: 100%;
+  padding: 12px;
+  box-sizing: border-box; /* Ensures padding doesn't break width */
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  outline: none;
+  transition: border-color 0.2s ease-in-out;
+}
+
+/* Highlight input when clicked */
+input[type="text"]:focus {
+  border-color: #007bff;
+}
+
+/* 4. Style the submit button */
+button {
+  width: 100%;
+  padding: 12px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+/* Hover effect for the button */
+button:hover {
+  background-color: #0056b3;
+}
